@@ -1,0 +1,13 @@
+.component-AppRecommend{
+    height:150px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    display: flex;
+    
+}
+.component-AppRecommend > div{
+    width: 100px;
+    height:150px;
+    
+}
+

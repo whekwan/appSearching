@@ -1,0 +1,24 @@
+.component-app-listing-result-row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    height: 32px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  
+  .component-app-listing-result-row .odd {
+    width: 32px;
+    height: 32px;
+    /*padding-right: 10px;*/
+    border-radius: 4px;
+  }
+  
+  .component-app-listing-result-row .title {
+    position: relative;
+    top: -8px;
+    font-size: 2vh;
+    
+  }
+  

@@ -1,0 +1,24 @@
+.component-app-recommend-result-col{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    margin:0;
+  }
+  
+  
+  .component-app-recommend-result-col .odd {
+    width: 80px;
+    height: 80px;
+    /*padding-right: 10px;*/
+    border-radius: 4px;
+    align-content: center;
+  }
+  
+  .component-app-recommend-result-col .app-recommend-title {
+    position: relative;
+    top: -8px;
+    font-size: 0.5em;
+  }
+  
