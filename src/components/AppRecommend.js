@@ -16,7 +16,7 @@ class AppRecommmend extends PureComponent{
         <div className="component-AppRecommend">
         {this.props.appRecommendData.map(appRecommendData=>(
             <AppRecommmendCol
-            imgSource={appRecommendData["im:image"][1].label}
+            imgSource={appRecommendData["im:image"][2].label}
             title={appRecommendData["im:name"].label}/>
         ))}
         </div>

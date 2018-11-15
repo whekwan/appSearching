@@ -17,7 +17,7 @@ class AppListing extends PureComponent{
         <div className="component-AppListing">
         {this.props.appListingData.map(appListingData=>(
             <AppListingRow
-            imgSource={appListingData["im:image"][0].label}
+            imgSource={appListingData["im:image"][1].label}
             title={appListingData["im:name"].label}/>
         ))}
         </div>

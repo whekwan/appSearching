@@ -6,7 +6,6 @@ export default async function filterAppRecommend(searchText, maxResults) {
     const api = await fetch("https://itunes.apple.com/hk/rss/topgrossingapplications/limit=10/json")
   .then(results=>results.json());
       datas = api.feed.entry;
-      console.log(datas);
       //filtering data
     return datas
     .filter(data => {

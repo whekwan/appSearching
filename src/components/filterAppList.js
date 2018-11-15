@@ -20,7 +20,7 @@
        data.category.attributes.label.toLowerCase().includes(searchText.toLowerCase())||
        data.category.attributes.term.toLowerCase().includes(searchText.toLowerCase())
          ) {
-           console.log(data);
+
          return true;
        }
        if (data["im:name"].label.includes(searchText)||
@@ -29,7 +29,6 @@
        data.category.attributes.label.includes(searchText)||
        data.category.attributes.term.includes(searchText)
        ) {
-        console.log(data);
          return true;
        }
  
