@@ -8,7 +8,15 @@
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 40vmin;
 }
-
+.search-bar{
+  z-index: 99;
+  position:sticky;
+  background: #FFF;
+  top: 0; left: 0; width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
 .App-header {
 
   display: flex;
@@ -21,20 +29,15 @@
 .App-recommendation{
   border-bottom: 1px solid #ccc;
 }
-div.component-search-input{
 
-  border-bottom: 1px solid #ccc;
+.App-recommendation-title{
+  margin-left:10px;
+  margin-top:10px;
+  /*color: #22cfff;*/
+}
+.App-listing-title{
+  margin-left:10px;
+  margin-top:10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

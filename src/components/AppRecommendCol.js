@@ -5,7 +5,6 @@ import "./AppRecommendCol.css";
 
 class AppRecommendCol extends PureComponent {
   render() {
-    console.log("calling function for"+this.props.title);
     return (
         <div className="component-app-recommend-result-col">
         <img src={this.props.imgSource} className="odd"/>
@@ -15,6 +14,7 @@ class AppRecommendCol extends PureComponent {
     );
   }
 }
+//getting app title and image source(icon) from AppRecommend component
 AppRecommendCol.propTypes = {
   title: PropTypes.string,
   imgSource: PropTypes.string
