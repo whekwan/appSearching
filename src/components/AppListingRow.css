@@ -13,11 +13,22 @@
     /*padding-right: 10px;*/
     border-radius: 4px;
   }
+  .component-app-listing-result-row .even {
+    width: 32px;
+    height: 32px;
+    /*padding-right: 10px;*/
+    border-radius: 30px;
+  }
   
   .app-listing-result-title {
     position: relative;
     top: -8px;
     font-size: 2vh;
-    
+  }
+  .component-app-listing-result-row .row-number{
+    position: relative;
+    top: -8px;
+    font-size: 3vh;
+    padding-right: 10px;
   }
   

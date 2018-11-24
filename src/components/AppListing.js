@@ -13,10 +13,13 @@ class AppListing extends PureComponent{
     }
     render(){
         //render the App Listing
+        let listLength = this.props.appListingData.length;
+        console.log("listLength is "+listLength);
         return(
         <div className="component-AppListing">
-        {this.props.appListingData.map(appListingData=>(
+        {this.props.appListingData.map((appListingData,index)=>(
             <AppListingRow
+            index ={index+1}
             imgSource={appListingData["im:image"][1].label}
             title={appListingData["im:name"].label}/>
         ))}
