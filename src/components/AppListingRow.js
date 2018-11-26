@@ -7,7 +7,7 @@ class AppListingRow extends PureComponent {
   render() {
     if(this.props.index%2===0){
       return (
-        <div className="component-app-listing-result-row" key = {this.props.index}>
+        <div className="component-app-listing-result-row" >
         <span className="row-number">{this.props.index}</span>
         <img src={this.props.imgSource} className="even"/>
         <span className="app-listing-result-title"> {this.props.title}</span>
